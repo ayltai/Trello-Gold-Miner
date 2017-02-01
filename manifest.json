@@ -1,0 +1,19 @@
+{
+  "name"             : "Trello Gold Miner",
+  "description"      : "Give you a taste of Trello Gold",
+  "version"          : "0.1.0",
+  "manifest_version" : 2,
+  "author"           : "Alan Tai",
+  "icons"            : {
+    "128" : "logo-128.png"
+  },
+  "background"       : {
+    "scripts"    : [ "background.js" ],
+    "persistent" : false
+  },
+  "permissions": [
+    "https://trello.com/*",
+    "activeTab"
+  ],
+  "offline_enabled"  : true
+}
